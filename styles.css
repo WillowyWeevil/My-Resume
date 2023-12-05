@@ -5,6 +5,10 @@ h1{
 h2{
     color: whitesmoke;
 }
+h3{
+    color:whitesmoke;
+    text-align: center;
+}
 a{
     color: rgb(214, 211, 211);
 }
@@ -25,5 +29,18 @@ body{
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.my-projects{
+    display:flex;
+    gap:10px;
+    
+}
+
+@media(max-width:600px){
+    .my-projects{
+        display:flex;
+        flex-wrap:wrap;
+    }
 }
 
