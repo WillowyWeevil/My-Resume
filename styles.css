@@ -38,11 +38,17 @@ body{
 }
 
 @media(max-width:600px){
+
+    .body-content{
+        margin:10px;
+        padding: 10px;
+    }
+
     .my-projects{
         display:flex;
         flex-wrap:wrap;
     }
-    img{
+    .my-projects  img{
         width:150px;
         height:150px;
     }
